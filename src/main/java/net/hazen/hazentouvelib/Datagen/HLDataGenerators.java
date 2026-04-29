@@ -21,6 +21,7 @@ public class HLDataGenerators {
         ExistingFileHelper existingFileHelper = event.getExistingFileHelper();
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
+        generator.addProvider(event.includeServer(), new HLRecipeProvider(packOutput, lookupProvider));
         BlockTagsProvider blockTagsProvider = new HLBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
         generator.addProvider(event.includeServer(), new HLTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));

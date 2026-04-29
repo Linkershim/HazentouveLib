@@ -29,7 +29,7 @@ public class HLArmorItem extends ArmorItem {
         };
     }
 
-    public static AttributeContainer[] dormantTierMulti(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3) {
+    public static AttributeContainer[] dormantTierTri(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3) {
         return new AttributeContainer[]{
                 new AttributeContainer(school1, 0.05, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
                 new AttributeContainer(school2, 0.05, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
@@ -47,7 +47,7 @@ public class HLArmorItem extends ArmorItem {
         };
     }
 
-    public static AttributeContainer[] schoolTierMulti(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3) {
+    public static AttributeContainer[] schoolTierTri(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3) {
         return new AttributeContainer[]{
                 new AttributeContainer(school1, 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
                 new AttributeContainer(school2, 0.1, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
