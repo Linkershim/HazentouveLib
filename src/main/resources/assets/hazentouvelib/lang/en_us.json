@@ -1,11 +1,11 @@
 {
 
   "key.hazentouvelib.group": "HazentouveLib Abilities",
-  "key.hazentouvelib.ability_1": "Armor Ability 1",
-  "key.hazentouvelib.ability_2": "Armor Ability 2",
-  "key.hazentouvelib.ability_3": "Armor Ability 3",
-  "key.hazentouvelib.ability_4": "Armor Ability 4",
-  "key.hazentouvelib.ability_5": "Armor Ability 5",
+  "key.hazentouvelib.ability_1": "Ability 1",
+  "key.hazentouvelib.ability_2": "Ability 2",
+  "key.hazentouvelib.ability_3": "Ability 3",
+  "key.hazentouvelib.ability_4": "Ability 4",
+  "key.hazentouvelib.ability_5": "Ability 5",
 
   "ui.hazentouvelib.staff_resonation": "This spell requires a certain staff to be crafted...",
   "ui.hazentouvelib.armor_resonation": "This spell requires a certain armor set to be crafted...",
