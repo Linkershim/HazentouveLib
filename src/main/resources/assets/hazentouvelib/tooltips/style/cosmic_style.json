@@ -1,0 +1,10 @@
+{
+  "panel": "hazentouvelib:cosmic",
+  "frame": "hazentouvelib:cosmic",
+  "icon": "hazentouvelib:cosmic",
+  "effects": [
+    "hazentouvelib:cosmic_icon_particle",
+    "hazentouvelib:cosmic_inward",
+    "hazentouvelib:cosmic_shimmer"
+  ]
+}

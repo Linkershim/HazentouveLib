@@ -1,0 +1,12 @@
+{
+  "cosmic_cast_instant": {
+    "sounds": [
+      "hazentouvelib:cosmic_cast_instant"
+    ]
+  },
+  "cosmic_cast_long": {
+    "sounds": [
+      "hazentouvelib:cosmic_cast_long"
+    ]
+  }
+}

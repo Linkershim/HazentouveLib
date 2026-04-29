@@ -1,0 +1,8 @@
+{
+  "priority": 50,
+  "style": "hazentouvelib:holy_style",
+  "filter": {
+    "type": "obscure_tooltips:rarity",
+    "rarity": "hazentouvelib_rarity_holy"
+  }
+}
