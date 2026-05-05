@@ -51,6 +51,10 @@
   "school.hazentouvelib.shadow": "Shadow",
   "school.hazentouvelib.cosmic": "Cosmic",
 
+  "material.hazentouvelib.rune_radiance": "Radiance Rune",
+  "material.hazentouvelib.rune_shadow": "Shadow Rune",
+  "material.hazentouvelib.rune_cosmic": "Cosmic Rune",
+
   "attribute.hazentouvelib.radiance_spell_power": "Radiance Spell Power",
   "attribute.hazentouvelib.radiance_magic_resist": "Radiance Magic Resistance",
 
@@ -60,6 +64,7 @@
   "attribute.hazentouvelib.cosmic_spell_power": "Cosmic Spell Power",
   "attribute.hazentouvelib.cosmic_magic_resist": "Cosmic Magic Resistance",
 
+  "death.attack.radiance_magic": "%1$s was overwhelmed by the light...",
   "death.attack.shadow_magic": "%1$s was consumed by darkness",
   "death.attack.cosmic_magic": "%1$s returned into cosmic dust...",
   "death.attack.corrupt_magic": "%1$s shattered into fragments"

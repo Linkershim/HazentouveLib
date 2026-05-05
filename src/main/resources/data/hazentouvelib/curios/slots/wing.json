@@ -1,7 +1,7 @@
 {
   "order": 6,
   "size": 1,
-  "icon": "hazennstuff:slot/wing_slot",
+  "icon": "hazentouvelib:slot/wing_slot",
   "add_cosmetic": false,
   "operation": "SET",
   "render_toggle": true,

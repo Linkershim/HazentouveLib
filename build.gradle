@@ -191,8 +191,10 @@ dependencies {
     //localRuntime "curse.maven:cloth-config-348521:5623420"
 
     // Iron's Gems 'n Jewelry
-    //localRuntime "curse.maven:irons_gems_n_jewelry-1101111:7358426"
-    //localRuntime "curse.maven:atlas_api-1145462:6880789"
+    localRuntime "curse.maven:apothic-attributes-898963:6302334"
+    localRuntime "curse.maven:placebo-283644:6337156"
+    localRuntime "curse.maven:irons_gems_n_jewelry-1101111:7358426"
+    localRuntime "curse.maven:atlas_api-1145462:6880789"
 
 }
 

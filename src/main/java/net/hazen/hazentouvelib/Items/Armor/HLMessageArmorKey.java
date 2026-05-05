@@ -44,7 +44,7 @@ public record HLMessageArmorKey(int equipmentSlot, int playerId, int typ) implem
                 EquipmentSlot equipmentSlot1 = EquipmentSlot.values()[Mth.clamp(message.equipmentSlot, 0, EquipmentSlot.values().length - 1)];
                 ItemStack stack = player.getItemBySlot(equipmentSlot1);
                 Item patt0$temp = stack.getItem();
-                if (patt0$temp instanceof HnSKeybindArmor armor) {
+                if (patt0$temp instanceof HLKeybindArmor armor) {
                     armor.onKeyPacket(player, stack, message.typ);
                 }
             });

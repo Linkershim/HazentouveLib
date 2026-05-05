@@ -67,6 +67,127 @@ public class HLTags {
     public static final TagKey<Item> PARAGON_BOOTS = ItemTags
             .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/paragon/paragon_boots").toString()));
 
+    public static final TagKey<Item> HELMETS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/helmets").toString()));
+    public static final TagKey<Item> CHESTPLATES = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/chestplates").toString()));
+    public static final TagKey<Item> LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/leggings").toString()));
+    public static final TagKey<Item> BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/boots").toString()));
+
+
+    public static final TagKey<Item> SHADOW_SCHOOL_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/school_helmet").toString()));
+    public static final TagKey<Item> SHADOW_SCHOOL_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/school_chestplate").toString()));
+    public static final TagKey<Item> SHADOW_SCHOOL_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/school_leggings").toString()));
+    public static final TagKey<Item> SHADOW_SCHOOL_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/school_boots").toString()));
+
+    public static final TagKey<Item> SHADOW_PURE_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/pure_helmet").toString()));
+    public static final TagKey<Item> SHADOW_PURE_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/pure_").toString()));
+    public static final TagKey<Item> SHADOW_PURE_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/pure_leggings").toString()));
+    public static final TagKey<Item> SHADOW_PURE_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/pure_boots").toString()));
+
+    public static final TagKey<Item> SHADOW_PARAGON_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/paragon_helmet").toString()));
+    public static final TagKey<Item> SHADOW_PARAGON_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/paragon_chestplate").toString()));
+    public static final TagKey<Item> SHADOW_PARAGON_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/paragon_leggings").toString()));
+    public static final TagKey<Item> SHADOW_PARAGON_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/paragon_boots").toString()));
+
+    public static final TagKey<Item> SHADOW_ASCENDED_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/ascended_helmet").toString()));
+    public static final TagKey<Item> SHADOW_ASCENDED_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/ascended_chestplate").toString()));
+    public static final TagKey<Item> SHADOW_ASCENDED_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/ascended_leggings").toString()));
+    public static final TagKey<Item> SHADOW_ASCENDED_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/shadow/ascended_boots").toString()));
+
+
+    public static final TagKey<Item> RADIANCE_SCHOOL_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/school_helmet").toString()));
+    public static final TagKey<Item> RADIANCE_SCHOOL_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/school_chestplate").toString()));
+    public static final TagKey<Item> RADIANCE_SCHOOL_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/school_leggings").toString()));
+    public static final TagKey<Item> RADIANCE_SCHOOL_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/school_boots").toString()));
+
+    public static final TagKey<Item> RADIANCE_PURE_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/pure_helmet").toString()));
+    public static final TagKey<Item> RADIANCE_PURE_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/pure_").toString()));
+    public static final TagKey<Item> RADIANCE_PURE_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/pure_leggings").toString()));
+    public static final TagKey<Item> RADIANCE_PURE_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/pure_boots").toString()));
+
+    public static final TagKey<Item> RADIANCE_PARAGON_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/paragon_helmet").toString()));
+    public static final TagKey<Item> RADIANCE_PARAGON_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/paragon_chestplate").toString()));
+    public static final TagKey<Item> RADIANCE_PARAGON_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/paragon_leggings").toString()));
+    public static final TagKey<Item> RADIANCE_PARAGON_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/paragon_boots").toString()));
+
+    public static final TagKey<Item> RADIANCE_ASCENDED_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/ascended_helmet").toString()));
+    public static final TagKey<Item> RADIANCE_ASCENDED_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/ascended_chestplate").toString()));
+    public static final TagKey<Item> RADIANCE_ASCENDED_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/ascended_leggings").toString()));
+    public static final TagKey<Item> RADIANCE_ASCENDED_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/radiance/ascended_boots").toString()));
+
+
+    public static final TagKey<Item> COSMIC_SCHOOL_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/school_helmet").toString()));
+    public static final TagKey<Item> COSMIC_SCHOOL_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/school_chestplate").toString()));
+    public static final TagKey<Item> COSMIC_SCHOOL_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/school_leggings").toString()));
+    public static final TagKey<Item> COSMIC_SCHOOL_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/school_boots").toString()));
+
+    public static final TagKey<Item> COSMIC_PURE_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/pure_helmet").toString()));
+    public static final TagKey<Item> COSMIC_PURE_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/pure_").toString()));
+    public static final TagKey<Item> COSMIC_PURE_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/pure_leggings").toString()));
+    public static final TagKey<Item> COSMIC_PURE_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/pure_boots").toString()));
+
+    public static final TagKey<Item> COSMIC_PARAGON_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/paragon_helmet").toString()));
+    public static final TagKey<Item> COSMIC_PARAGON_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/paragon_chestplate").toString()));
+    public static final TagKey<Item> COSMIC_PARAGON_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/paragon_leggings").toString()));
+    public static final TagKey<Item> COSMIC_PARAGON_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/paragon_boots").toString()));
+
+    public static final TagKey<Item> COSMIC_ASCENDED_HELMET = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/ascended_helmet").toString()));
+    public static final TagKey<Item> COSMIC_ASCENDED_CHESTPLATE = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/ascended_chestplate").toString()));
+    public static final TagKey<Item> COSMIC_ASCENDED_LEGGINGS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/ascended_leggings").toString()));
+    public static final TagKey<Item> COSMIC_ASCENDED_BOOTS = ItemTags
+            .create(ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(HazentouveLib.MOD_ID, "armors/cosmic/ascended_boots").toString()));
+
+
     /*
      *** Equipment
      */

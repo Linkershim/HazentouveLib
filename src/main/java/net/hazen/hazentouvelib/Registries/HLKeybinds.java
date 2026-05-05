@@ -15,9 +15,9 @@ public final class HLKeybinds {
 
     public static final ExtendedKeyMapping ABILITY_1 = new ExtendedKeyMapping(getResourceName("ability_1"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_H, KEY_BIND_GENERAL_CATEGORY);
     public static final ExtendedKeyMapping ABILITY_2 = new ExtendedKeyMapping(getResourceName("ability_2"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_Y, KEY_BIND_GENERAL_CATEGORY);
-    public static final ExtendedKeyMapping ABILITY_3 = new ExtendedKeyMapping(getResourceName("ability_2"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_H, KEY_BIND_GENERAL_CATEGORY);
-    public static final ExtendedKeyMapping ABILITY_4 = new ExtendedKeyMapping(getResourceName("ability_2"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_N, KEY_BIND_GENERAL_CATEGORY);
-    public static final ExtendedKeyMapping ABILITY_5 = new ExtendedKeyMapping(getResourceName("ability_2"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_I, KEY_BIND_GENERAL_CATEGORY);
+    public static final ExtendedKeyMapping ABILITY_3 = new ExtendedKeyMapping(getResourceName("ability_3"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_Z, KEY_BIND_GENERAL_CATEGORY);
+    public static final ExtendedKeyMapping ABILITY_4 = new ExtendedKeyMapping(getResourceName("ability_4"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_N, KEY_BIND_GENERAL_CATEGORY);
+    public static final ExtendedKeyMapping ABILITY_5 = new ExtendedKeyMapping(getResourceName("ability_5"), KeyConflictContext.IN_GAME, InputConstants.Type.KEYSYM, InputConstants.KEY_I, KEY_BIND_GENERAL_CATEGORY);
 
     private static String getResourceName(String name) {
         return String.format("key.hazentouvelib.%s", name);

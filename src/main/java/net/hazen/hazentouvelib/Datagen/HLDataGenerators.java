@@ -24,6 +24,6 @@ public class HLDataGenerators {
         generator.addProvider(event.includeServer(), new HLRecipeProvider(packOutput, lookupProvider));
         BlockTagsProvider blockTagsProvider = new HLBlockTagProvider(packOutput, lookupProvider, existingFileHelper);
         generator.addProvider(event.includeServer(), blockTagsProvider);
-        generator.addProvider(event.includeServer(), new HLTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
+        generator.addProvider(event.includeServer(), new HLItemTagProvider(packOutput, lookupProvider, blockTagsProvider.contentsGetter(), existingFileHelper));
     }
 }
