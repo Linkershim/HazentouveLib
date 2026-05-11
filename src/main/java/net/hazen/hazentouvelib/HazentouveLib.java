@@ -52,7 +52,6 @@ public class HazentouveLib {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-
         }
     }
 

@@ -68,7 +68,6 @@ public class HLItemRegistry {
      */
 
 
-
     public static Collection<DeferredHolder<Item, ? extends Item>> getHLItems()
     {
         return ITEMS.getEntries();
