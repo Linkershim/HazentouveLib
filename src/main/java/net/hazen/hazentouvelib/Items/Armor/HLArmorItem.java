@@ -76,7 +76,7 @@ public class HLArmorItem extends ArmorItem {
         };
     }
 
-    public static AttributeContainer[] pureTierDual(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3)
+    public static AttributeContainer[] pureTierTri(Holder<Attribute> school1, Holder<Attribute> school2, Holder<Attribute> school3)
     {
         return new AttributeContainer[]{
                 new AttributeContainer(school1, 0.15f, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),

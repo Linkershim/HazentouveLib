@@ -14,7 +14,8 @@ enumExtensions="META-INF/enumextensions.json"
 authors="${mod_authors}" #optional
 description='''${mod_description}'''
 
-config="${mod_id}.mixins.json"
+[[mixins]]
+config="hazentouvelib.mixins.json"
 
 [[dependencies.${mod_id}]] #optional
 # the modid of the dependency

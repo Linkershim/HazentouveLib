@@ -10,12 +10,18 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(EnderMan.class)
 public class EnderManMixin {
-    @Inject(method = "registerGoals", at = @At("HEAD"))
-    void astralConstructHatred(CallbackInfo ci)
-    {
+
+    @Inject(method = "registerGoals", at = @At("TAIL"))
+    private void astralConstructHatred(CallbackInfo ci) {
+
         EnderMan self = (EnderMan) (Object) this;
 
-        self.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(self, Mob.class, true, entity -> entity.getType().is(HLTags.ASTRAL_CONSTRUCT)));
-        self.targetSelector.addGoal(3, new NearestAttackableTargetGoal<>(self, Mob.class, true, (entity) -> !entity.getType().is(HLTags.SPAWNS_OF_ENDER)));
+        // Use the same constructor pattern as other Enderman-like classes in this mod
+        // to target astral constructs while ignoring other end-related spawns.
+        self.targetSelector.addGoal(3,
+                new NearestAttackableTargetGoal<>(self, Mob.class, true, entity -> entity.getType()
+                        .is(HLTags.ASTRAL_CONSTRUCT) && !entity.getType().is(HLTags.SPAWNS_OF_ENDER)
+                )
+        );
     }
 }

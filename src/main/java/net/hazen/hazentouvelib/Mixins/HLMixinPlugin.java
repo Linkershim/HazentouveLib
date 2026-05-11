@@ -16,13 +16,11 @@ public class HLMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public String getRefMapperConfig() {
-        // null for default behavior
         return null;
     }
 
     @Override
     public boolean shouldApplyMixin(String targetClassName, String mixinClassName) {
-        // Internal format of Compat$MODID$MixinName to automatically not apply mixins with that modid missing
         var nameT = mixinClassName.split("\\.");
         var name = nameT[nameT.length - 1];
         if (name.startsWith("Compat")) {
@@ -39,7 +37,6 @@ public class HLMixinPlugin implements IMixinConfigPlugin {
 
     @Override
     public List<String> getMixins() {
-        // null for default behavior
         return null;
     }
 

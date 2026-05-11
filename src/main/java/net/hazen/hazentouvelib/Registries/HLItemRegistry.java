@@ -4,12 +4,10 @@ import io.redspace.ironsspellbooks.item.UpgradeOrbItem;
 import io.redspace.ironsspellbooks.registries.ComponentRegistry;
 import io.redspace.ironsspellbooks.util.ItemPropertiesHelper;
 import net.hazen.hazentouvelib.HazentouveLib;
-import net.hazen.hazentouvelib.Rarities.HLRarities;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.Collection;
@@ -66,7 +64,7 @@ public class HLItemRegistry {
     );
 
     /*
-    *** Focuses
+    *** Example Wings
      */
 
 
