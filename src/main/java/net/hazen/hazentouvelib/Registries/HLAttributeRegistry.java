@@ -1,5 +1,6 @@
 package net.hazen.hazentouvelib.Registries;
 
+import io.redspace.ironsspellbooks.api.attribute.MagicPercentAttribute;
 import io.redspace.ironsspellbooks.api.attribute.MagicRangedAttribute;
 import net.hazen.hazentouvelib.HazentouveLib;
 import net.minecraft.core.registries.Registries;
@@ -40,14 +41,14 @@ public class HLAttributeRegistry {
     private static DeferredHolder<Attribute, Attribute> registerResistanceAttribute(String id)
     {
         return ATTRIBUTES.register(id + "_magic_resist", () ->
-                (new MagicRangedAttribute("attribute.hazentouvelib." + id + "_magic_resist",
+                (new MagicPercentAttribute("attribute.hazentouvelib." + id + "_magic_resist",
                         1.0D, 0, 10).setSyncable(true)));
     }
 
     private static DeferredHolder<Attribute, Attribute> registerPowerAttribute(String id)
     {
         return ATTRIBUTES.register(id + "_spell_power", () ->
-                (new MagicRangedAttribute("attribute.hazentouvelib." + id + "_spell_power",
+                (new MagicPercentAttribute("attribute.hazentouvelib." + id + "_spell_power",
                         1.0D, 0, 10).setSyncable(true)));
     }
 }
