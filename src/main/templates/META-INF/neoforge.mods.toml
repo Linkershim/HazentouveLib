@@ -39,3 +39,9 @@ modId = "irons_spellbooks"
 type="required"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "caelus"
+type="required"
+ordering = "NONE"
+side = "BOTH"
