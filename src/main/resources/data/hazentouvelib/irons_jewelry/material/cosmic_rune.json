@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "hazentouvelib:cosmic_rune"
   },
-  "materialType": [
-    "spellbooks_rune"
-  ],
   "paletteLocation": "hazentouvelib:palettes/rune_cosmic",
   "quality": 1.5,
   "bonusParameters": {

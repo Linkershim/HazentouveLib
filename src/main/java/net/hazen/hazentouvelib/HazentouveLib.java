@@ -46,6 +46,7 @@ public class HazentouveLib {
     public void onServerStarting(ServerStartingEvent event) {
 
     }
+
     @EventBusSubscriber(modid = MOD_ID, value = Dist.CLIENT)
     public static class ClientModEvents
     {

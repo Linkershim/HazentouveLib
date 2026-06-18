@@ -153,11 +153,12 @@ dependencies {
      */
 
     //Iron's Spells 'n Spellbooks
-    implementation "curse.maven:irons_spells_n_spellbooks-855414:7907341"
-    implementation "curse.maven:iron_lib-1492763:7907336"
+    implementation "curse.maven:irons_spells_n_spellbooks-855414:8237097"
+    implementation "curse.maven:iron_lib-1492763:8207094"
     implementation "curse.maven:geckolib-388172:6304958"
     implementation "curse.maven:player_animator-658587:6024462"
     implementation "curse.maven:curios-309927:6342656"
+    implementation "curse.maven:caelus-308989:5694215"
 
     /*
     *** Runtime Only ***************************************************************************************************
@@ -191,9 +192,9 @@ dependencies {
     //localRuntime "curse.maven:cloth-config-348521:5623420"
 
     // Iron's Gems 'n Jewelry
-    localRuntime "curse.maven:apothic-attributes-898963:6302334"
-    localRuntime "curse.maven:placebo-283644:6337156"
-    localRuntime "curse.maven:irons_gems_n_jewelry-1101111:7358426"
+    //localRuntime "curse.maven:apothic-attributes-898963:6302334"
+    //localRuntime "curse.maven:placebo-283644:6337156"
+    localRuntime "curse.maven:irons_gems_n_jewelry-1101111:8237157"
     localRuntime "curse.maven:atlas_api-1145462:6880789"
 
 }

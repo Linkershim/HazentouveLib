@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "hazentouvelib:shadow_rune"
   },
-  "materialType": [
-    "spellbooks_rune"
-  ],
   "paletteLocation": "hazentouvelib:palettes/rune_shadow",
   "quality": 1.5,
   "bonusParameters": {

@@ -3,9 +3,6 @@
   "ingredient": {
     "item": "hazentouvelib:radiance_rune"
   },
-  "materialType": [
-    "spellbooks_rune"
-  ],
   "paletteLocation": "hazentouvelib:palettes/rune_radiance",
   "quality": 1.5,
   "bonusParameters": {
